@@ -1,0 +1,65 @@
+	<!DOCTYPE HTML5>
+<HTML>
+
+<HEAD>
+<TITLE>TEMA 7: TAGS</TITLE>
+</HEAD>
+<STYLE>
+
+	BODY{FONT-FAMILY:QUICKSAND;BACKGROUND:#000000; COLOR: WHITE;}
+
+</STYLE>
+
+<BODY> 
+<H1>TAGS</H1>
+
+<P>  <H3>html</H3> define el inicio del documento HTML, le indica al navegador que lo que viene a continuación debe ser interpretado como código HTML. Esto es así de facto, ya que en teoría lo que define el tipo de documento es el DOCTYPE, que significa la palabra justo tras DOCTYPE el tag de raíz.
+
+     <BR>
+	  <H3>script</H3> incrusta un script en una web, o llama a uno mediante src="url del script". Se recomienda incluir el tipo MIME en el atributo type, en el caso de JavaScript text/javascript.
+	<BR>
+    <H3>head</H3> define la cabecera del documento HTML; esta cabecera suele contener información sobre el documento que no se muestra directamente al usuario como, por ejemplo, el título de la ventana del navegador. Dentro de la cabecera head es posible encontrar:
+	<br>
+        <H3>title</H3> define el título de la página. Por lo general, el título aparece en la barra de título encima de la ventana.
+	<br>
+        <H3>link</H3> para vincular el sitio a hojas de estilo o iconos. Por ejemplo:link rel="stylesheet" href="/style.css" type="text/css".
+	<BR>
+        <H3>style</H3> para colocar el estilo interno de la página; ya sea usando CSS u otros lenguajes similares. No es necesario colocarlo si se va a vincular a un archivo externo usando la etiqueta link.
+	<BR>
+        <H3>meta</H3> para metadatos como la autoría o la licencia, incluso para indicar parámetros http (mediante http-equiv="") cuando no se pueden modificar por no estar disponible la configuración o por dificultades con server-side scripting.
+	<BR>
+    		<H3>body</H3> define el contenido principal o cuerpo del documento. Esta es la parte del documento html que se muestra en el navegador; dentro de esta etiqueta pueden definirse propiedades comunes a toda la página, como color de fondo y márgenes. Dentro del cuerpo body es posible encontrar numerosas etiquetas. A continuación se indican algunas a modo de ejemplo:
+	<BR>
+        <H3>article</H3> Representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o re-utilizable.
+
+        <H3>h1 a h6</H3> encabezados o títulos del documento con diferente relevancia.
+
+        <H3>table</H3>define una tabla.
+
+            <H3>tr</H3> fila de una tabla.
+
+            <H3>td</H3> celda de una tabla (debe estar dentro de una fila).
+
+            <H3>footer</H3> representa el pie de un documento o sección. La información que se suele añadir en este bloque es el autor del documento, enlaces a contenido relacionado, información de copyright, avisos legales, etc.
+
+        <H3>a</H3> hipervínculo o enlace, dentro o fuera del sitio web. Debe definirse el parámetro de pasada por medio del atributo href.
+	<BR>
+        <H3>div</H3>división de la página. Se recomienda, junto con css, en vez de table cuando se desea alinear contenido.
+	<br>
+        <H3>img</H3> imagen. Requiere del atributo src, que indica la ruta en la que se encuentra la imagen. Por ejemplo: img src="./imágenes/mifoto.jpg" />. Es conveniente, por accesibilidad, poner un atributo alt="texto alternativo".
+        li,ol,ul: etiquetas para listas.
+	<br>
+        <H3>u</H3> Antes texto subrayado. A partir de HTML 5 define porciones de texto diferenciadas o destacadas del resto, para indicar correcciones por ejemplo (etiqueta desaprobada en HTML 4.01 y redefinida en HTML 5).
+	<BR>
+        <H3>main</H3> división estructural de la página que engloba el contenido principal de la misma. Dentro de esta etiqueta, por ejemplo, encontramos los article.
+        <H3>span</H3> Sirve para diferenciar un texto de otro.
+	<BR>
+        <H3>br</H3> Sirve para provocar un salto de línea.Esta etiqueta no se cierra.
+	<BR>
+        <H3>details</H3> Sirve para crear una sección desplegable
+	<BR>
+        <H3>summary</H3> Sirve para crear el título de la sección desplegable
+</P>
+</BODY>
+
+</HTML>
